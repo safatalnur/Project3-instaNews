@@ -1,0 +1,1 @@
+const SVG_NS="http://www.w3.org/2000/svg";$(document).ready((function(){$(".loader").show();let e=$(".select :selected").val();console.log(e),$.getJSON("https://api.nytimes.com/svc/topstories/v2/science.json?api-key=awlzncIf5AWJtGt2d3FyPQ2GxEVYzzFt").done((function(e){console.log(e)}))}));
