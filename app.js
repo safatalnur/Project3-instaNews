@@ -10,7 +10,7 @@ $(document).ready(function(){
         // checkSize();
         // $("#grid").empty();
     $('ul').children().remove();
-        $("#loader").hide();
+        $("#loader").show();
         $change = ($(this).val())
        $.getJSON(`https://api.nytimes.com/svc/topstories/v2/${$change}.json?api-key=awlzncIf5AWJtGt2d3FyPQ2GxEVYzzFt`)
       .done(function(data) {
