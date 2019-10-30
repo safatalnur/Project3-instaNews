@@ -9,6 +9,7 @@ $main-font: Open Sans Light;
 $main-color: #ffffff;
 $footer-color: #c2c2c2;
 
+//Media-query setup
 @mixin tablet {
     @media (min-width: 600px){
         @content;
