@@ -1,13 +1,15 @@
-const SVG_NS = "http://www.w3.org/2000/svg"
 
-$(document).ready(function(){
+
+jQuery(document).ready(function($){
 
     
     
-    $("#loader").hide();
+    // $("#loader").hide();
 
     $("#sectionSelect").on("change", function(event){
 
+
+    $('header').addClass('headSmall');
         
     $('ul').children().remove();
         $("#loader").show();
