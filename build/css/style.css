@@ -56,23 +56,20 @@ body {
       margin-left: 60px; } }
 
 .headSmall {
-  height: 75px;
+  min-height: 10vh;
   -webkit-transition: 1s;
   transition: 1s;
-  padding-top: 7rem; }
-  .headSmall #choose {
-    margin-top: 1rem;
-    padding-bottom: 7rem; }
+  margin-bottom: 30px; }
   .headSmall .logoLarge {
-    height: 75px; }
+    margin-top: 30px;
+    height: 150px; }
   @media (min-width: 600px) {
     .headSmall {
-      height: 110px;
       padding-top: 0; }
       .headSmall #choose {
-        padding-bottom: 0; }
+        margin-left: 100px; }
       .headSmall .logoLarge {
-        height: 55px;
+        height: 95px;
         width: auto;
         margin-bottom: 1rem; } }
 

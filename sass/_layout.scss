@@ -13,15 +13,11 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        // margin-top: 10px;
-        // position: relative;
         min-height: 90vh;
-        // margin: 0 auto -50px;
 
         @include tablet {
                 display: flex;
                 flex-direction: row;
- 
         }
 
         @include desktop {
@@ -29,40 +25,32 @@ body {
                 flex-direction: row;
                 justify-content: left;
                 margin-left: 60px;
-
-
         }
 }
 
 .headSmall {
-        height: 75px;
+        min-height: 10vh;
         transition: 1s;
-        padding-top: 7rem;
+        margin-bottom: 30px;
 
-        #choose {
-                margin-top: 1rem;
-                padding-bottom: 7rem;
-        }
         .logoLarge {
-                height: 75px;
+                margin-top: 30px;
+                height: 150px;
         }
 
         @include tablet {
-                height: 110px;
                 padding-top: 0;
                 
-                #choose {
-                        padding-bottom: 0;
-
+                #choose { 
+                        margin-left: 100px;
                 }
                 .logoLarge {
-                        height: 55px;
+                        height: 95px;
                         width: auto;
                         margin-bottom: 1rem;
                 }
         }
 }
-        
 
         .logoLarge {
                 width: 220px;

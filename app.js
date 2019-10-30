@@ -2,12 +2,7 @@
 
 jQuery(document).ready(function($){
 
-    
-    
-    // $("#loader").hide();
-
     $("#sectionSelect").on("change", function(event){
-
 
     $('header').addClass('headSmall');
         
