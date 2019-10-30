@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     
     // $("#grid").hide();
-    // $("#loader").hide();
+    $("#loader").hide();
 
     $("#sectionSelect").on("change", function(event){
         // checkSize();
