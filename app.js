@@ -3,16 +3,20 @@ const SVG_NS = "http://www.w3.org/2000/svg"
 $(document).ready(function(){
 
     
-    // $("#grid").hide();
+    
     $("#loader").hide();
 
     $("#sectionSelect").on("change", function(event){
-        // checkSize();
-        // $("#grid").empty();
+
+        
     $('ul').children().remove();
         $("#loader").show();
         $change = ($(this).val())
        $.getJSON(`https://api.nytimes.com/svc/topstories/v2/${$change}.json?api-key=awlzncIf5AWJtGt2d3FyPQ2GxEVYzzFt`)
+
+    
+
+
       .done(function(data) {
 // setting value of news initial at o    
         let totalStories=0;
@@ -38,13 +42,11 @@ $(document).ready(function(){
                 else {
                     return
                 }
+
            })
-        //    $("div").append(`<img src="${value.multimedia[4].url}"/>`)
-        //    $("div").append(`<li>${value.abstract}</li>`)
                 totalStories++;
                 return (totalStories !==12)
     })
-    // sectionSelect.empty();
     $('#loader').hide();
 
 })
