@@ -1,3 +1,7 @@
+![](/project-03-assets/assets/Screenshot/desktop-api.png)
+![](/project-03-assets/assets/Screenshot/fullpage-api.png)
+![](/project-03-assets/assets/Screenshot/mobile-api.png)
+
 # InstaNews NYT API website
 
 The website contains one page responsive website where upto 12 top news filter through NYT API.
