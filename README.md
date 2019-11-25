@@ -1,5 +1,5 @@
 ![](/project-03-assets/assets/Screenshot/desktop-api.png)
-![](/project-03-assets/assets/Screenshot/fullpage-api.png)
+![](/project-03-assets/assets/Screenshot/fullpage-api.jpg)
 ![](/project-03-assets/assets/Screenshot/mobile-api.png)
 
 # InstaNews NYT API website
